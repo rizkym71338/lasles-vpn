@@ -1,5 +1,5 @@
 import React from "react";
-import { Feature, Hero } from "../components";
+import { Feature, Hero, Network, Plan } from "../components";
 import { MainLayout } from "../layouts";
 
 const Home = () => {
@@ -8,6 +8,8 @@ const Home = () => {
       <MainLayout>
         <Hero />
         <Feature />
+        <Plan />
+        <Network />
       </MainLayout>
     </>
   );
