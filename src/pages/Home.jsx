@@ -1,5 +1,5 @@
 import React from "react";
-import { Feature, Hero, Network, Plan } from "../components";
+import { Feature, Hero, Network, Plan, Testimonial } from "../components";
 import { MainLayout } from "../layouts";
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <Feature />
         <Plan />
         <Network />
+        <Testimonial />
       </MainLayout>
     </>
   );
